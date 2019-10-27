@@ -33,14 +33,14 @@ void printList(node* nd){
 
 int main()
 {
-    node* head = NULL; 
-    push(&head, 1);  
-    push(&head, 4);  
-    push(&head, 1);  
-    push(&head, 212);  
-    push(&head, 1);  
+    node* head = NULL;
+    push(&head, 1);
+    push(&head, 4);
+    push(&head, 1);
+    push(&head, 212);
+    push(&head, 1);
     cout<<"length of Linked list is ";
     cout<<length(head);
-    return 0; 
+    return 0;
 
 }
